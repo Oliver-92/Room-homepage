@@ -34,7 +34,7 @@ Los usuarios deben poder:
 
 ### Enlaces
 
-- URL de la solución: [Frontend Mentor](https://your-solution-url.com)
+- URL de la solución: [Frontend Mentor](https://www.frontendmentor.io/solutions/room-homepage-with-react-q0mahyuhql)
 - URL del sitio en vivo: [Demo](https://gilded-trifle-be57e2.netlify.app/)
 
 ## Mi proceso
