@@ -1,0 +1,123 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section__image-container {
+  width: 100%;
+}
+
+.about-section__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.about-section__content {
+  padding: 56px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-section__title {
+  font-size: 14px;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--color-black);
+  margin: 0;
+}
+
+.about-section__description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-grey-500);
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 1fr;
+    min-height: 240px;
+    flex: 1;
+  }
+
+  .about-section__image-container {
+    min-height: 240px;
+  }
+
+  .about-section__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .about-section__content {
+    padding: 40px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-section__title {
+    font-size: 12px;
+    letter-spacing: 4px;
+  }
+
+  .about-section__description {
+    font-size: 11px;
+    line-height: 1.7;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-section {
+    grid-template-columns: 1fr 1.4fr 1fr;
+    min-height: 260px;
+  }
+
+  .about-section__image-container {
+    min-height: 260px;
+  }
+
+  .about-section__content {
+    padding: 50px 44px;
+  }
+
+  .about-section__title {
+    font-size: 13px;
+    letter-spacing: 5px;
+  }
+
+  .about-section__description {
+    font-size: 12px;
+    line-height: 1.65;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-section {
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 266px;
+  }
+
+  .about-section__image-container {
+    min-height: 266px;
+  }
+
+  .about-section__content {
+    padding: 64px 56px;
+  }
+
+  .about-section__title {
+    font-size: 14px;
+    letter-spacing: 6px;
+  }
+
+  .about-section__description {
+    font-size: 14px;
+  }
+}

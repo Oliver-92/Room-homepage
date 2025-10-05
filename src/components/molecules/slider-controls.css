@@ -1,0 +1,48 @@
+.slider-controls {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.slider-controls__btn {
+  width: 56px;
+  height: 56px;
+  background-color: var(--color-black);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.slider-controls__btn:hover {
+  background-color: var(--color-grey-800);
+}
+
+.slider-controls__btn:focus-visible {
+  outline: 3px solid var(--color-white);
+  outline-offset: -3px;
+}
+
+.slider-controls__btn img {
+  width: 14px;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .slider-controls {
+    position: static;
+  }
+
+  .slider-controls__btn {
+    width: 80px;
+    height: 80px;
+  }
+
+  .slider-controls__btn img {
+    width: 16px;
+  }
+}
